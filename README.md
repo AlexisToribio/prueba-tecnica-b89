@@ -1,15 +1,33 @@
-## Crear archivo .env y configurar variables según el .env.example
+## Crear archivo .env y configurar variables
 
-## Installation
+DB_HOST=
+DB_PORT=
+DB_USERNAME=
+DB_PASSWORD=
+DB_NAME=
+
+JWT_SECRET=
+
+## Instalación
 
 ```bash
 $ npm install
 ```
 
-## Running the app
+## Ejecución de la APP en un entorno de desarrollo
 
 ```bash
 # watch mode
 $ npm run start:dev
 
 ```
+
+## Endpoints
+
+# POST - GET
+
+products
+
+# GET - PATCH - DELETE
+
+products/:id
